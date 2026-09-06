@@ -3,3 +3,4 @@
 export(cfa_estimate)
 export(efa_estimate)
 export(efa_preliminary)
+export(ltm_estimate)

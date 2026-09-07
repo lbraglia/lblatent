@@ -11,7 +11,8 @@ The goal of lblatent is to ...
 You can install the development version of lblatent like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remotes::install_github("lbraglia/lblatent")
+devtools::install_github("lbraglia/lblatent")
 ```
 
 ## Example

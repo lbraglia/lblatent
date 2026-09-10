@@ -27,7 +27,7 @@ ltm_estimate <- function(data, plot_characteristic = FALSE){
 
   ## factor scores tab
   fs <- factor.scores(mod, method = "EAP")
-  comp <- factor.scores(m1, method="Component")
+  comp <- factor.scores(mod, method="Component")
   factor_scores <- cbind(
     fs$score.dat,  # factor scores from EAP
     "component" = comp$score.dat[, "z1"], # Components

@@ -7,6 +7,7 @@ example <- function(){
 
   library(ltm)
   data(Abortion)
+  names(Abortion) <- c("WomanDecides", "CoupleAgree", "CantAfford", "WomanNotMarried")
   res_ltm <- ltm_estimate(Abortion)
 
   library(poLCA)

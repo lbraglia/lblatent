@@ -3,6 +3,7 @@
 export(cfa_estimate)
 export(efa_estimate)
 export(efa_preliminary)
+export(example)
 export(lca_estimate)
 export(lca_preliminary)
 export(ltm_estimate)

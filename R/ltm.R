@@ -1,5 +1,4 @@
 #' @export
-
 ltm_estimate <- function(data, plot_characteristic = FALSE){
   p <- ncol(data)
   des <- ltm::descript(data)

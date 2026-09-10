@@ -97,7 +97,7 @@ lca_estimate <- function(formula = cbind(A, B, C, D, E, F, G) ~ 1,
     ricordella_pattern_predizione
   )
   ricordella_posterior_prob_of_pattern <- poLCA.posterior(
-    mod_ord
+    mod_ord,
     y = ricordella_pattern_predizione
   )
   
